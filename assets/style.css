@@ -91,7 +91,7 @@ nav a {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+		min-height: 100vh;
 }
 .title{
 	text-align: center;
@@ -243,6 +243,12 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+
+.carousel-item .active{
+	width: 100%;
+
 }
 
 @media all and (max-width: 1180px) {
