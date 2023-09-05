@@ -251,6 +251,11 @@ input[type="submit"] {
 
 }
 
+.footer_test{
+line-height: 2em;	
+	text-align: center;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
