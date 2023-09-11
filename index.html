@@ -2,23 +2,37 @@
 <html lang="fr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Web site de Nina Carducci" />
     <meta
       name="keywords"
       content="nina carducci, photographe, photographe professionelle, concert, entreprise, mariage, événement, portrait, shooting, retouches, création d'albums"
     />
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" defer />
-    <link rel="stylesheet" href="./assets/style.css" defer />
+
+    <!-- ***************************Google Font***************************  -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
-      defer
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
     />
-    <meta name="description" content="Web site about Nina Carducci" />
-    <meta charset="UTF-8" />
+    <!-- ***************************CDN Framework + CSS + Js ***************************  -->
 
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
+
+    <script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+
+    <script src="./assets/maugallery.min.js" defer></script>
+    <script src="./assets/scripts.min.js" defer></script>
+
+    <link rel="stylesheet" href="./assets/style.min.css" media="all" />
+
+    <!-- ***************************SEO***************************  -->
 
     <title>&Nina Carducci</title>
   </head>
@@ -162,14 +176,12 @@
       <article id="about">
         <div class="picture left">
           <img
-            layout="responsive"
-            data-original-height="341"
-            height="341"
-            data-original-width="341"
-            width="341"
-            sizes="(min-width: 2020px) 560px, (min-width: 1200px) calc(30vw - 40px), (min-width: 660px) calc(46.15vw - 75px), calc(80vw - 51px)"
-            src="./assets/images/nina.webp"
-            alt="picture of Nina"
+            src="./assets/images/nina-medium.jpg"
+            alt="Photo de la photographe Nina Carducci souriante devant une forêt de bambou"
+            width="375"
+            height="375"
+            style="max-width: 100%; height: auto"
+            aria-describedby="ariaDescriptionNina"
           />
         </div>
         <section id="about-me">
@@ -372,14 +384,11 @@
           </div>
           <div class="picture right">
             <img
-              layout="responsive"
-              sizes="(min-width: 1600px) 419px, (min-width: 1200px) calc(28.16vw - 26px), (min-width: 1020px) calc(43.75vw - 68px), (min-width: 980px) calc(200vw - 1612px), (min-width: 680px) calc(42.86vw - 63px), (min-width: 640px) calc(-975vw + 6653px), calc(75.94vw - 58px)"
-              src="./assets/images/camera.webp"
-              data-original-height="333"
-              height="333"
-              data-original-width="333"
-              width="333"
-              alt="camera"
+              src="./assets/images/camera.jpg"
+              alt="image d'un appareil photo vintage"
+              width="417"
+              height="417"
+              style="max-width: 100%; height: auto"
             />
           </div>
         </section>
@@ -409,16 +418,6 @@
         >
       </div>
     </footer>
-    <script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      defer
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-
-    <script src="./assets/maugallery.js" defer></script>
-    <script src="./assets/scripts.js" defer></script>
 
     <script type="application/ld+json">
       {
