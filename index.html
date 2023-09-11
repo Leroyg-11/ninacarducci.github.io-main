@@ -242,7 +242,7 @@
         </div>
         <section id="about-me">
           <h2 class="about-me__title">A propos de moi</h2>
-          <h3 class="about-me__introduction">
+          <h3 class="about-me__introduction" id="ariaDescriptionNina">
             Devenir photographe était pour moi une évidence. Comme si j’y étais
             prédestiné. Saisir un moment, une émotion, une situation, un
             endroit, une lumière et les rendre immortels, voilà ce qui me fait
@@ -424,6 +424,7 @@
               <label for="form">
                 <label for="nom">Nom</label>
                 <input type="text" name="nom" id="nom" />
+
                 <label for="email">E-mail</label>
                 <input type="email" name="email" id="email" />
                 <label for="message">Message</label>
@@ -433,8 +434,9 @@
                   cols="30"
                   rows="10"
                 ></textarea>
-                <label for="Submit"></label>
-                <input type="submit" value="Envoyer" />
+
+                <label for="Submit">Envoyer</label>
+                <input type="submit" name="submit" value="Envoyer" />
               </label>
             </form>
           </div>
