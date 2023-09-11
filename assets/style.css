@@ -251,6 +251,8 @@ input[type="submit"] {
 
 }
 
+.responsive {   max-width: 100%;   height: auto; }
+
 .footer_test{
 line-height: 2em;	
 	text-align: center;
